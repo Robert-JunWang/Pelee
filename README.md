@@ -43,6 +43,6 @@ The table below shows the results on PASCAL VOC 2007 test.
 
 
 ## Models
-- Pascal VOC 07+12: [Download (20.3M)](https://drive.google.com/file/d/1OBzEnD5VEB_q_B8YkLx-i3PMHVO-wagk/view?usp=sharing) 
+- PASCAL VOC 07+12: [Download (20.3M)](https://drive.google.com/file/d/1OBzEnD5VEB_q_B8YkLx-i3PMHVO-wagk/view?usp=sharing) 
 
 
