@@ -17,12 +17,17 @@ The table below shows the results on PASCAL VOC 2007.
 
 0. Install SSD (https://github.com/weiliu89/caffe/tree/ssd) following the instructions there, including: (1) Install SSD caffe; (2) Download PASCAL VOC 2007 and 2012 datasets; and (3) Create LMDB file. Make sure you can run it without any errors.
 
-
-
+1. Download pretrained PeleeNet model. By default, we assume the model is stored in $CAFFE_ROOT/models/
+2. Clone this repository and create a soft link to $CAFFE_ROOT/examples 
+  ```shell
+  git clone https://github.com/Robert-JunWang/Pelee.git
+  ln -sf `pwd`/Pelee $CAFFE_ROOT/examples/pelee
+  ```
 ## Training & Testing
 
 - Train a Pelee model on VOC 07+12:
 
   ```shell
-  python example/pelee/train_voc.py
+  cd $CAFFE_ROOT
+  python examples/pelee/train_voc.py
   ```
