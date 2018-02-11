@@ -1,5 +1,8 @@
 # Pelee: A Real-Time Object Detection System on Mobile Devices
-This repository contains the code for Pelee. The code is based on the [SSD](https://github.com/weiliu89/caffe/tree/ssd) framework. 
+This repository contains the code for the code for the following paper. 
+[Pelee: A Real-Time Object Detection System on Mobile Devices](https://openreview.net/pdf?id=r1PhalTLf)
+
+The code is based on the [SSD](https://github.com/weiliu89/caffe/tree/ssd) framework. 
 
 ## Results 
 
