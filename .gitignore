@@ -1,0 +1,23 @@
+# ===========
+**/.DS_Store
+
+*.m~
+*.mdb
+
+*.mlmodel
+
+
+.ipynb_checkpoints
+*.pyc
+*.pth
+*.tar
+*.hdf5
+*.h5
+*.npy
+
+*.out
+*.log
+*.caffemodel
+*.solverstate
+
+
