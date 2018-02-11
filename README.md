@@ -6,7 +6,7 @@ This repository contains the code for Pelee. The code is based on the [SSD](http
 The table below shows the results on PASCAL VOC 2007 test.
 
 | Method | mAP | FPS (Intel i7) |FPS (iPhone 6s) |FPS (iPhone 8) |FPS (1080 Ti) | # parameters 
-|:-------|:-----:|:-------:|:-------:|:-------:|:-------:|
+|:-------|:-----:|:-------:|:-------:|:-------:|:-------:|:-------:|
 | YOLOv2-288 | 69.0 | 1.0 | - | - | 92.0 |58.0M |
 | DSOD300_smallest| 73.6 | 1.3 | - | - |43.5 | 5.9M |
 | Tiny-YOLOv2 | 57.1 | 2.4 | 9.3 | 23.8 |119.5 | 15.9M |
