@@ -15,7 +15,7 @@ The table below shows the results on PASCAL VOC 2007 test.
 | DSOD300_smallest| 73.6 | 1.3 | - | - |5.9M |
 | Tiny-YOLOv2 | 57.1 | 2.4 | 9.3 | 23.8 | 15.9M |
 | SSD+MobileNet | 68.0 | 6.1 | 16.1 | 22.8 |5.8M |
-| [Pelee](https://drive.google.com/file/d/1mq54LMPoiyqzrxnu6T5naObCDtZYFNbQ/view?usp=sharing) | 70.5 | 6.7 | 17.1 | 23.6 | 5.4M |
+| [Pelee](https://drive.google.com/file/d/1mq54LMPoiyqzrxnu6T5naObCDtZYFNbQ/view?usp=sharing) | 70.9 | 6.7 | 17.1 | 23.6 | 5.4M |
 
 ## Preparation 
 
