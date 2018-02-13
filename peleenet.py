@@ -146,9 +146,8 @@ def add_classify_header(net, classes=120):
   bottom = net.keys()[-1]
 
   net.global_pool = L.Pooling(net[bottom], pool=P.Pooling.AVE, global_pooling=True) 
-  net.classifier = L.Convolution(net.global_pool, kernel_size=1, stride=1,
-                             num_output=classes, pad=0, bias_term=False, weight_filler=dict(type='xavier'),
-                           bias_filler=dict(type='constant'))
+
+  net.classifier = L.InnerProduct(net.global_pool, num_output=classes, bias_term=True, weight_filler=dict(type='xavier'), bias_filler=dict(type='constant'))
 
   net.prob = L.Softmax(net.classifier)
   return net
