@@ -17,6 +17,12 @@ The table below shows the results on PASCAL VOC 2007 test.
 | SSD+MobileNet | 68.0 | 6.1 | 16.1 | 22.8 |5.8M |
 | [Pelee](https://drive.google.com/file/d/1mq54LMPoiyqzrxnu6T5naObCDtZYFNbQ/view?usp=sharing) | 70.9 | 6.7 | 17.1 | 23.6 | 5.4M |
 
+| Method | 07+12 | 07+12+coco 
+|:-------|:-----:|:-------:|
+| SSD300 | 77.2 | 81.2|
+| SSD+MobileNet | 68 | 72.7|
+| Pelee | 70.9 | 76.4|
+
 ## Preparation 
 
 0. Install SSD (https://github.com/weiliu89/caffe/tree/ssd) following the instructions there, including: (1) Install SSD caffe; (2) Download PASCAL VOC 2007 and 2012 datasets; and (3) Create LMDB file. Make sure you can run it without any errors.
@@ -44,5 +50,6 @@ The table below shows the results on PASCAL VOC 2007 test.
 
 ## Models
 - PASCAL VOC 07+12: [Download (20.3M)](https://drive.google.com/file/d/1OBzEnD5VEB_q_B8YkLx-i3PMHVO-wagk/view?usp=sharing) 
+- PASCAL VOC 07+12+coco: [Download (20.3M)](https://drive.google.com/file/d/1OBzEnD5VEB_q_B8YkLx-i3PMHVO-wagk/view?usp=sharing) 
 
 
