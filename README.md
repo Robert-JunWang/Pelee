@@ -21,7 +21,7 @@ The table below shows the results on PASCAL VOC 2007 test.
 |:-------|:-----:|:-------:|
 | SSD300 | 77.2 | 81.2|
 | SSD+MobileNet | 68 | 72.7|
-| Pelee | 70.9 | 76.4|
+| Pelee | [70.9](https://drive.google.com/file/d/1mq54LMPoiyqzrxnu6T5naObCDtZYFNbQ/view?usp=sharing) | [76.4](https://drive.google.com/open?id=1_HOBfIpSl4QzBmnz_Edx7ENXYVCk47HI)|
 
 ## Preparation 
 
@@ -49,7 +49,7 @@ The table below shows the results on PASCAL VOC 2007 test.
 
 
 ## Models
-- PASCAL VOC 07+12: [Download (20.3M)](https://drive.google.com/file/d/1OBzEnD5VEB_q_B8YkLx-i3PMHVO-wagk/view?usp=sharing) 
-- PASCAL VOC 07+12+coco: [Download (20.3M)](https://drive.google.com/file/d/1OBzEnD5VEB_q_B8YkLx-i3PMHVO-wagk/view?usp=sharing) 
+- PASCAL VOC 07+12: [Download (20.3M)](https://drive.google.com/file/d/1mq54LMPoiyqzrxnu6T5naObCDtZYFNbQ/view?usp=sharing)
+- PASCAL VOC 07+12+coco: [Download (20.3M)](https://drive.google.com/open?id=1_HOBfIpSl4QzBmnz_Edx7ENXYVCk47HI) 
 
 
