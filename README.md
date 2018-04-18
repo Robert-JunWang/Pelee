@@ -24,7 +24,8 @@ The table below shows the results on PASCAL VOC 2007 test.
 | Pelee | [70.9](https://drive.google.com/file/d/1mq54LMPoiyqzrxnu6T5naObCDtZYFNbQ/view?usp=sharing) | [76.4](https://drive.google.com/open?id=1_HOBfIpSl4QzBmnz_Edx7ENXYVCk47HI)|
 
 ## Results on COCO
-The table below shows the results on COCO test-dev2015
+The table below shows the results on COCO test-dev2015.
+
 | Method | mAP@0.5:0.95 | mAP@0.5 |mAP@0.75|Computational Cost (MACs) | # parameters 
 |:-------|:-----:|:-------:|:-------:|:-------:|:-------:|
 | SSD300 | 25.1 | 43.1 | 25.8 | 34,360 M | 34.3 M |
