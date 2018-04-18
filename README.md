@@ -28,7 +28,7 @@ The table below shows the results on COCO test-dev2015.
 
 | Method | mAP@0.5:0.95 | mAP@0.5 |mAP@0.75|Computational Cost (MACs) | # parameters 
 |:-------|:-----:|:-------:|:-------:|:-------:|:-------:|
-| SSD300 | 25.1 | 43.1 | 25.8 | 34,360 M | 34.3 M |
+| SSD300 | 25.1 | 43.1 | 25.8 | 34,360 M | 34.30 M |
 | YOLOv2-416| 21.6 | 44.0 | 19.2 | 17,500 M|67.43 M |
 | SSD+MobileNet | 18.8 | - | - | 1,200 M | 6.80 M |
 | Pelee | 22.4 | 38.3 | 22.9 | 1,290 M |5.98 M |
