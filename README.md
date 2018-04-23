@@ -5,6 +5,16 @@ This repository contains the code for the following paper.
 
 The code is based on the [SSD](https://github.com/weiliu89/caffe/tree/ssd) framework. 
 
+### Citation
+If you find Pelee useful in your research, please consider citing:
+
+@article{wang2018pelee,
+  title={Pelee: A Real-Time Object Detection System on Mobile Devices},
+  author={Wang, Robert J and Li, Xiang and Ao, Shuang and Ling, Charles X},
+  journal={arXiv preprint arXiv:1804.06882},
+  year={2018}
+}
+  
 ## Results on VOC 2007
 
 The table below shows the results on PASCAL VOC 2007 test.
