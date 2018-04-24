@@ -6,7 +6,7 @@ This repository contains the code for the following paper.
 The code is based on the [SSD](https://github.com/weiliu89/caffe/tree/ssd) framework. 
 
 ### Citation
-If you find Pelee useful in your research, please consider citing:
+If you find this work useful in your research, please consider citing:
 
 ```
 @article{wang2018pelee,
