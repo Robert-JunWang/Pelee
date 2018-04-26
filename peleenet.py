@@ -160,6 +160,6 @@ if __name__ == '__main__':
 
   PeleeNetBody(net, from_layer='data')
   add_classify_header(net,classes=1000)
-  print net.to_proto()
+  print(net.to_proto())
 
 
