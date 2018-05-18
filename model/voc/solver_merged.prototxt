@@ -1,0 +1,25 @@
+train_net: "models/release/pelee_coco_voc/train_merged.prototxt"
+test_net: "models/release/pelee_coco_voc/test_merged.prototxt"
+test_iter: 1238
+test_interval: 2000
+base_lr: 0.0005
+display: 10
+max_iter: 0
+lr_policy: "poly"
+power: 0.5
+gamma: 0.1
+momentum: 0.9
+weight_decay: 0.0005
+snapshot: 2000
+snapshot_prefix: "models/release/pelee_coco_voc/pelee_304x304_coco"
+solver_mode: GPU
+device_id: 0
+debug_info: false
+snapshot_after_train: false
+test_initialization: true
+average_loss: 10
+iter_size: 1
+type: "SGD"
+eval_type: "detection"
+ap_version: "11point"
+
