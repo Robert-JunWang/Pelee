@@ -1,7 +1,7 @@
 # Pelee: A Real-Time Object Detection System on Mobile Devices
 This repository contains the code for the following paper. 
 
-[Pelee: A Real-Time Object Detection System on Mobile Devices](https://arxiv.org/pdf/1804.06882.pdf) (ICLR 2018 workshop track)
+[Pelee: A Real-Time Object Detection System on Mobile Devices](https://arxiv.org/pdf/1804.06882.pdf) (NeurIPS 2018)
 
 The code is based on the [SSD](https://github.com/weiliu89/caffe/tree/ssd) framework. 
 
@@ -9,18 +9,24 @@ The code is based on the [SSD](https://github.com/weiliu89/caffe/tree/ssd) frame
 If you find this work useful in your research, please consider citing:
 
 ```
-@article{wang2018pelee,
-  title={Pelee: A Real-Time Object Detection System on Mobile Devices},
-  author={Wang, Robert J and Li, Xiang and Ao, Shuang and Ling, Charles X},
-  journal={arXiv preprint arXiv:1804.06882},
-  year={2018}
+
+@incollection{NIPS2018_7466,
+title = {Pelee: A Real-Time Object Detection System on Mobile Devices},
+author = {Wang, Robert J and Li, Xiang and Ling, Charles X},
+booktitle = {Advances in Neural Information Processing Systems 31},
+editor = {S. Bengio and H. Wallach and H. Larochelle and K. Grauman and N. Cesa-Bianchi and R. Garnett},
+pages = {1967--1976},
+year = {2018},
+publisher = {Curran Associates, Inc.},
+url = {http://papers.nips.cc/paper/7466-pelee-a-real-time-object-detection-system-on-mobile-devices.pdf}
 }
+
 ```
 ## Results on VOC 2007
 
 The table below shows the results on PASCAL VOC 2007 test.
 
-| Method | mAP (%) | FPS (Intel i7) |FPS (iPhone 6s) |FPS (iPhone 8) | # parameters 
+| Method | mAP (%) | FPS (Intel i7) |FPS (NVIDIA TX2) |FPS (iPhone 8) | # parameters 
 |:-------|:-----:|:-------:|:-------:|:-------:|:-------:|
 | YOLOv2-288 | 69.0 | 1.0 | - | - | 58.0M |
 | DSOD300_smallest| 73.6 | 1.3 | - | - |5.9M |
@@ -37,12 +43,15 @@ The table below shows the results on PASCAL VOC 2007 test.
 ## Results on COCO
 The table below shows the results on COCO test-dev2015.
 
-| Method | mAP@[0.5:0.95] | mAP@0.5 |mAP@0.75|Computational Cost (MACs) | # parameters 
+| Method | mAP@[0.5:0.95] | mAP@0.5 |mAP@0.75|FPS (NVIDIA TX2) | # parameters 
 |:-------|:-----:|:-------:|:-------:|:-------:|:-------:|
-| SSD300 | 25.1 | 43.1 | 25.8 | 34,360 M | 34.30 M |
-| YOLOv2-416| 21.6 | 44.0 | 19.2 | 17,500 M|67.43 M |
-| SSD+MobileNet | 18.8 | - | - | 1,200 M | 6.80 M |
-| Pelee | 22.4 | 38.3 | 22.9 | 1,290 M |5.98 M |
+| SSD300 | 25.1 | 43.1 | 25.8 | - | 34.30 M |
+| YOLOv2-416| 21.6 | 44.0 | 19.2 | 32.2|67.43 M |
+| YOLOv3-320| - | 33.1| - | 105|67.43 M |
+| TinyYOLOv3-416| - | 51.5 | - | 21.5|67.43 M |
+| SSD+MobileNet-300 | 18.8 | - | - | 80 | 6.80 M |
+| SSDLite+MobileNet V2-320| 22 | - | - | 61 | 6.80 M |
+| Pelee-304 | 22.4 | 38.3 | 22.9 | 120 |5.98 M |
 
 ## Preparation 
 
