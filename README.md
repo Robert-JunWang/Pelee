@@ -48,7 +48,7 @@ The table below shows the results on COCO test-dev2015.
 | SSD300 | 25.1 | 43.1 | 25.8 | - | 34.30 M |
 | YOLOv2-416| 21.6 | 44.0 | 19.2 | 32.2|67.43 M |
 | YOLOv3-320| - | 51.5| - | 21.5|67.43 M |
-| TinyYOLOv3-416| - | 33.1 | - | 21.5|67.43 M |
+| TinyYOLOv3-416| - | 33.1 | - | 105|12.3 M |
 | SSD+MobileNet-300 | 18.8 | - | - | 80 | 6.80 M |
 | SSDLite+MobileNet V2-320| 22 | - | - | 61 | 6.80 M |
 | Pelee-304 | 22.4 | 38.3 | 22.9 | 120 |5.98 M |
